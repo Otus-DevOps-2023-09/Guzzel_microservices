@@ -1,0 +1,7 @@
+REPOSITORY              TAG       IMAGE ID       CREATED              SIZE
+guzel/ubuntu-tmp-file   latest    a1165a244998   About a minute ago   63.2MB
+ubuntu                  18.04     f9a80a55f492   10 months ago        63.2MB
+hello-world             latest    d2c94e258dcb   11 months ago        13.3kB
+
+Образ - это шаблон, по которому создаются контейнеры. У контейнера есть состояние и вообще полная информация о нем, а inspect образа содержит данные,
+на основании которых будет создан новый контейнер
