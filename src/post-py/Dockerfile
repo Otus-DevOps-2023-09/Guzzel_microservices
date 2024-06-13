@@ -1,4 +1,4 @@
-FROM python:3.6.0-alpine
+FROM python:3.6-alpine
 
 WORKDIR /app
 ADD . /app
@@ -9,6 +9,5 @@ RUN apk --no-cache --update add build-base && \
 
 ENV POST_DATABASE_HOST post_db
 ENV POST_DATABASE posts
-ENV network-alias post2
 
-ENTRYPOINT ["python3", "post_app.py"]
+CMD ["python3", "post_app.py"]

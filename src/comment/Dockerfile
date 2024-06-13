@@ -11,6 +11,5 @@ ADD . $APP_HOME
 
 ENV COMMENT_DATABASE_HOST comment_db
 ENV COMMENT_DATABASE comments
-ENV network-alias comment2
 
 CMD ["puma"]
